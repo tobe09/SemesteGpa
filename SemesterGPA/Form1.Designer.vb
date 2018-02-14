@@ -95,6 +95,7 @@ Partial Class Form1
         '
         'PanelLogin
         '
+        Me.PanelLogin.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.PanelLogin.Controls.Add(Me.lblMsgLogin)
         Me.PanelLogin.Controls.Add(Me.tbxYearLogin)
         Me.PanelLogin.Controls.Add(Me.tbxOtherNameLogin)
@@ -110,19 +111,19 @@ Partial Class Form1
         Me.PanelLogin.Controls.Add(Me.Label2)
         Me.PanelLogin.Controls.Add(Me.tbxSurnameLogin)
         Me.PanelLogin.Controls.Add(Me.Label1)
-        Me.PanelLogin.Location = New System.Drawing.Point(28, 120)
+        Me.PanelLogin.Location = New System.Drawing.Point(0, 0)
         Me.PanelLogin.Name = "PanelLogin"
-        Me.PanelLogin.Size = New System.Drawing.Size(536, 466)
+        Me.PanelLogin.Size = New System.Drawing.Size(596, 476)
         Me.PanelLogin.TabIndex = 0
         '
         'lblMsgLogin
         '
         Me.lblMsgLogin.AutoSize = True
-        Me.lblMsgLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMsgLogin.ForeColor = System.Drawing.Color.Maroon
-        Me.lblMsgLogin.Location = New System.Drawing.Point(18, 79)
+        Me.lblMsgLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMsgLogin.ForeColor = System.Drawing.Color.DarkRed
+        Me.lblMsgLogin.Location = New System.Drawing.Point(265, 41)
         Me.lblMsgLogin.Name = "lblMsgLogin"
-        Me.lblMsgLogin.Size = New System.Drawing.Size(0, 16)
+        Me.lblMsgLogin.Size = New System.Drawing.Size(0, 20)
         Me.lblMsgLogin.TabIndex = 14
         '
         'tbxYearLogin
@@ -168,10 +169,10 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label7.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label7.Location = New System.Drawing.Point(207, 17)
+        Me.Label7.Location = New System.Drawing.Point(57, 23)
         Me.Label7.Name = "Label7"
         Me.Label7.Padding = New System.Windows.Forms.Padding(10)
         Me.Label7.Size = New System.Drawing.Size(164, 45)
@@ -180,13 +181,17 @@ Partial Class Form1
         '
         'btnSubmitLogin
         '
+        Me.btnSubmitLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnSubmitLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnSubmitLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmitLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSubmitLogin.Location = New System.Drawing.Point(207, 382)
+        Me.btnSubmitLogin.ForeColor = System.Drawing.Color.Black
+        Me.btnSubmitLogin.Location = New System.Drawing.Point(334, 385)
         Me.btnSubmitLogin.Name = "btnSubmitLogin"
         Me.btnSubmitLogin.Size = New System.Drawing.Size(120, 39)
         Me.btnSubmitLogin.TabIndex = 7
         Me.btnSubmitLogin.Text = "Submit"
-        Me.btnSubmitLogin.UseVisualStyleBackColor = True
+        Me.btnSubmitLogin.UseVisualStyleBackColor = False
         '
         'Label6
         '
@@ -240,7 +245,9 @@ Partial Class Form1
         '
         'tbxSurnameLogin
         '
+        Me.tbxSurnameLogin.BackColor = System.Drawing.SystemColors.Window
         Me.tbxSurnameLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbxSurnameLogin.ForeColor = System.Drawing.SystemColors.WindowText
         Me.tbxSurnameLogin.Location = New System.Drawing.Point(267, 110)
         Me.tbxSurnameLogin.Name = "tbxSurnameLogin"
         Me.tbxSurnameLogin.Size = New System.Drawing.Size(243, 26)
@@ -258,6 +265,7 @@ Partial Class Form1
         '
         'PanelMain
         '
+        Me.PanelMain.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.PanelMain.Controls.Add(Me.lblMsgMain)
         Me.PanelMain.Controls.Add(Me.btnCalcMain)
         Me.PanelMain.Controls.Add(Me.btnLogoutMain)
@@ -276,9 +284,9 @@ Partial Class Form1
         Me.PanelMain.Controls.Add(Me.Label10)
         Me.PanelMain.Controls.Add(Me.Label9)
         Me.PanelMain.Controls.Add(Me.lblNameMain)
-        Me.PanelMain.Location = New System.Drawing.Point(15, 12)
+        Me.PanelMain.Location = New System.Drawing.Point(8, 3)
         Me.PanelMain.Name = "PanelMain"
-        Me.PanelMain.Size = New System.Drawing.Size(571, 721)
+        Me.PanelMain.Size = New System.Drawing.Size(571, 730)
         Me.PanelMain.TabIndex = 1
         Me.PanelMain.Visible = False
         '
@@ -287,16 +295,16 @@ Partial Class Form1
         Me.lblMsgMain.AutoSize = True
         Me.lblMsgMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMsgMain.ForeColor = System.Drawing.Color.Maroon
-        Me.lblMsgMain.Location = New System.Drawing.Point(33, 184)
+        Me.lblMsgMain.Location = New System.Drawing.Point(255, 185)
         Me.lblMsgMain.Name = "lblMsgMain"
         Me.lblMsgMain.Size = New System.Drawing.Size(0, 16)
         Me.lblMsgMain.TabIndex = 17
         '
         'btnCalcMain
         '
-        Me.btnCalcMain.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCalcMain.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnCalcMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCalcMain.ForeColor = System.Drawing.Color.White
+        Me.btnCalcMain.ForeColor = System.Drawing.Color.Black
         Me.btnCalcMain.Location = New System.Drawing.Point(237, 479)
         Me.btnCalcMain.Name = "btnCalcMain"
         Me.btnCalcMain.Size = New System.Drawing.Size(154, 37)
@@ -306,13 +314,16 @@ Partial Class Form1
         '
         'btnLogoutMain
         '
+        Me.btnLogoutMain.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnLogoutMain.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnLogoutMain.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogoutMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogoutMain.Location = New System.Drawing.Point(482, 18)
+        Me.btnLogoutMain.Location = New System.Drawing.Point(482, 12)
         Me.btnLogoutMain.Name = "btnLogoutMain"
         Me.btnLogoutMain.Size = New System.Drawing.Size(75, 26)
         Me.btnLogoutMain.TabIndex = 15
         Me.btnLogoutMain.Text = "LogOut"
-        Me.btnLogoutMain.UseVisualStyleBackColor = True
+        Me.btnLogoutMain.UseVisualStyleBackColor = False
         '
         'btnRemoveMain
         '
@@ -355,10 +366,11 @@ Partial Class Form1
         'lblClassDivResult
         '
         Me.lblClassDivResult.AutoSize = True
-        Me.lblClassDivResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblClassDivResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblClassDivResult.ForeColor = System.Drawing.Color.Blue
         Me.lblClassDivResult.Location = New System.Drawing.Point(22, 141)
         Me.lblClassDivResult.Name = "lblClassDivResult"
-        Me.lblClassDivResult.Size = New System.Drawing.Size(199, 24)
+        Me.lblClassDivResult.Size = New System.Drawing.Size(179, 24)
         Me.lblClassDivResult.TabIndex = 18
         Me.lblClassDivResult.Text = "Class Division Value"
         '
@@ -425,7 +437,7 @@ Partial Class Form1
         'btnOkResult
         '
         Me.btnOkResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOkResult.Location = New System.Drawing.Point(419, 153)
+        Me.btnOkResult.Location = New System.Drawing.Point(419, 144)
         Me.btnOkResult.Name = "btnOkResult"
         Me.btnOkResult.Size = New System.Drawing.Size(75, 23)
         Me.btnOkResult.TabIndex = 11
@@ -435,21 +447,21 @@ Partial Class Form1
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(22, 13)
+        Me.Label13.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.White
+        Me.Label13.Location = New System.Drawing.Point(24, 4)
         Me.Label13.Name = "Label13"
-        Me.Label13.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label13.Size = New System.Drawing.Size(73, 30)
+        Me.Label13.Padding = New System.Windows.Forms.Padding(15, 5, 15, 5)
+        Me.Label13.Size = New System.Drawing.Size(119, 34)
         Me.Label13.TabIndex = 10
-        Me.Label13.Text = "Result"
+        Me.Label13.Text = "RESULT"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(198, 155)
+        Me.Label8.Location = New System.Drawing.Point(215, 206)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(204, 16)
         Me.Label8.TabIndex = 11
@@ -507,10 +519,10 @@ Partial Class Form1
         'lblCoursesMain
         '
         Me.lblCoursesMain.AutoSize = True
-        Me.lblCoursesMain.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.lblCoursesMain.BackColor = System.Drawing.Color.DarkSlateGray
         Me.lblCoursesMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCoursesMain.ForeColor = System.Drawing.Color.Black
-        Me.lblCoursesMain.Location = New System.Drawing.Point(256, 181)
+        Me.lblCoursesMain.ForeColor = System.Drawing.Color.White
+        Me.lblCoursesMain.Location = New System.Drawing.Point(31, 194)
         Me.lblCoursesMain.Name = "lblCoursesMain"
         Me.lblCoursesMain.Padding = New System.Windows.Forms.Padding(5)
         Me.lblCoursesMain.Size = New System.Drawing.Size(89, 30)
@@ -521,7 +533,7 @@ Partial Class Form1
         '
         Me.lblYearMain.AutoSize = True
         Me.lblYearMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblYearMain.Location = New System.Drawing.Point(449, 70)
+        Me.lblYearMain.Location = New System.Drawing.Point(479, 70)
         Me.lblYearMain.Name = "lblYearMain"
         Me.lblYearMain.Size = New System.Drawing.Size(56, 16)
         Me.lblYearMain.TabIndex = 8
@@ -571,7 +583,7 @@ Partial Class Form1
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(359, 70)
+        Me.Label11.Location = New System.Drawing.Point(399, 70)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(49, 16)
         Me.Label11.TabIndex = 3
@@ -600,10 +612,10 @@ Partial Class Form1
         'lblNameMain
         '
         Me.lblNameMain.AutoSize = True
-        Me.lblNameMain.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.lblNameMain.BackColor = System.Drawing.Color.DarkSlateGray
         Me.lblNameMain.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNameMain.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblNameMain.Location = New System.Drawing.Point(29, 18)
+        Me.lblNameMain.ForeColor = System.Drawing.Color.White
+        Me.lblNameMain.Location = New System.Drawing.Point(32, 9)
         Me.lblNameMain.Name = "lblNameMain"
         Me.lblNameMain.Padding = New System.Windows.Forms.Padding(5)
         Me.lblNameMain.Size = New System.Drawing.Size(101, 34)
@@ -612,6 +624,7 @@ Partial Class Form1
         '
         'PanelAdd
         '
+        Me.PanelAdd.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.PanelAdd.Controls.Add(Me.btnCancelAdd)
         Me.PanelAdd.Controls.Add(Me.lblMsgAdd)
         Me.PanelAdd.Controls.Add(Me.btnAddCourseAdd)
@@ -624,16 +637,16 @@ Partial Class Form1
         Me.PanelAdd.Controls.Add(Me.Label19)
         Me.PanelAdd.Controls.Add(Me.Label18)
         Me.PanelAdd.Controls.Add(Me.Label17)
-        Me.PanelAdd.Location = New System.Drawing.Point(12, 245)
+        Me.PanelAdd.Location = New System.Drawing.Point(0, 0)
         Me.PanelAdd.Name = "PanelAdd"
-        Me.PanelAdd.Size = New System.Drawing.Size(567, 249)
+        Me.PanelAdd.Size = New System.Drawing.Size(593, 283)
         Me.PanelAdd.TabIndex = 2
         Me.PanelAdd.Visible = False
         '
         'btnCancelAdd
         '
         Me.btnCancelAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancelAdd.Location = New System.Drawing.Point(56, 220)
+        Me.btnCancelAdd.Location = New System.Drawing.Point(55, 237)
         Me.btnCancelAdd.Name = "btnCancelAdd"
         Me.btnCancelAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnCancelAdd.TabIndex = 26
@@ -645,7 +658,7 @@ Partial Class Form1
         Me.lblMsgAdd.AutoSize = True
         Me.lblMsgAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMsgAdd.ForeColor = System.Drawing.Color.Maroon
-        Me.lblMsgAdd.Location = New System.Drawing.Point(45, 51)
+        Me.lblMsgAdd.Location = New System.Drawing.Point(307, 42)
         Me.lblMsgAdd.Name = "lblMsgAdd"
         Me.lblMsgAdd.Size = New System.Drawing.Size(0, 16)
         Me.lblMsgAdd.TabIndex = 25
@@ -653,7 +666,7 @@ Partial Class Form1
         'btnAddCourseAdd
         '
         Me.btnAddCourseAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddCourseAdd.Location = New System.Drawing.Point(300, 213)
+        Me.btnAddCourseAdd.Location = New System.Drawing.Point(296, 233)
         Me.btnAddCourseAdd.Name = "btnAddCourseAdd"
         Me.btnAddCourseAdd.Size = New System.Drawing.Size(149, 30)
         Me.btnAddCourseAdd.TabIndex = 24
@@ -735,10 +748,10 @@ Partial Class Form1
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Label17.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.Black
-        Me.Label17.Location = New System.Drawing.Point(174, 15)
+        Me.Label17.ForeColor = System.Drawing.Color.White
+        Me.Label17.Location = New System.Drawing.Point(35, 26)
         Me.Label17.Name = "Label17"
         Me.Label17.Padding = New System.Windows.Forms.Padding(5)
         Me.Label17.Size = New System.Drawing.Size(230, 30)
@@ -747,8 +760,9 @@ Partial Class Form1
         '
         'PanelParent
         '
-        Me.PanelParent.Controls.Add(Me.PanelLogin)
+        Me.PanelParent.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.PanelParent.Controls.Add(Me.PanelAdd)
+        Me.PanelParent.Controls.Add(Me.PanelLogin)
         Me.PanelParent.Controls.Add(Me.PanelMain)
         Me.PanelParent.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelParent.Location = New System.Drawing.Point(0, 0)

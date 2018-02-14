@@ -9,3 +9,14 @@ C:\Users\NeptuneDev1\Documents\Visual Studio 2015\Projects\SemesterGPA\SemesterG
 C:\Users\NeptuneDev1\Documents\Visual Studio 2015\Projects\SemesterGPA\SemesterGPA\obj\Debug\SemesterGPA.exe
 C:\Users\NeptuneDev1\Documents\Visual Studio 2015\Projects\SemesterGPA\SemesterGPA\obj\Debug\SemesterGPA.xml
 C:\Users\NeptuneDev1\Documents\Visual Studio 2015\Projects\SemesterGPA\SemesterGPA\obj\Debug\SemesterGPA.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\bin\Debug\SemesterGPA.exe.config
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.exe
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.xml
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\bin\Debug\SemesterGPA.exe
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\bin\Debug\SemesterGPA.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\bin\Debug\SemesterGPA.xml
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.vbprojResolveAssemblyReference.cache
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.Form1.resources
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.Resources.resources
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\SemesterGpa\SemesterGPA\obj\Debug\SemesterGPA.vbproj.GenerateResource.Cache
